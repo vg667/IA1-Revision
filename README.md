@@ -1,6 +1,6 @@
 
 <br> 1.	Add two numbers using 4 functions and Pass by reference
-		<br> void input(int *a, int *b);
+		<br> void input(int \*a, int \*b);
 		<br> void add(int a, int b, int *sum);
 		<br> void output(int a, int b, int sum);
 		<br> input:
@@ -39,10 +39,10 @@
 	<br> float my_sqrt(float n);
 	<br> void output(float n, float sqrt_result);
 	
-<br> 6.	Write a program to Compare two strings
-	<br> void input_two_string(char *a, char *b);
-	<br> int strcmp(char *a, char *b);
-	<br> void output(char *a, char *b, int result);
+<br> 6.	Write a program to Compare two strings. Do not use string handling functions from standard library.
+	<br> void input_two_string(char \*a, char \*b);
+	<br> int strcmp(char \*a, char \*b); 
+	<br> void output(char \*a, char \*b, int result);
 	<br> input:
 	<br> hello 
 	<br> world
